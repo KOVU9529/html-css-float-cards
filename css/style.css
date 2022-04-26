@@ -2,5 +2,38 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-
+}
+.conteiner{
+    width: 70%;
+    margin: auto;
+}
+body{
+    font-family:'Fredoka';
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+h1{
+    margin: 20px;
+    color: #e43270;
+    text-align: center;
+}
+.col{
+    padding: 15px;
+    float: left;
+    width: calc(100%/3);
+}
+.cardx{
+    float: right;
+    color: white;
+    background-color: black;
+    width: 328px;
+    height: 90px;
+    padding: 10px;
+}
+img{
+    width: 90px;
+    height: 90px;
 }
